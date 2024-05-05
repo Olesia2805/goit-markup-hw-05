@@ -215,7 +215,6 @@ textarea {
   transition: var(--trst, ease);
   transition-property: background-color;
 }
-
 .footer-subscribe {
   display: flex;
   justify-content: space-between;
@@ -227,6 +226,7 @@ textarea {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  margin-right: 24px;
 }
 .footer-subscribe-label {
   font-weight: 500;
@@ -234,6 +234,24 @@ textarea {
   margin-bottom: 16px;
 }
 .footer-subscribe-string {
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  border-radius: 4px;
+  border: 1px solid var(--white);
+  outline: transparent;
+  background-color: transparent;
+}
+.footer-subscribe-string:hover,
+.footer-subscribe-string:focus {
+  border: 1px solid var(--iris);
+}
+.footer-subscribe-string::placeholder {
+  color: var(--white);
 }
 .footer-subscribe-btn {
   display: inline-flex;
@@ -250,7 +268,6 @@ textarea {
   align-items: center;
   justify-content: space-between;
 }
-
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
