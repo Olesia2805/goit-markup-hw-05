@@ -183,6 +183,9 @@ textarea {
   color: var(--cloud);
   max-width: 264px;
 }
+.footer-text-icons {
+  margin-right: 80px;
+}
 .footer-text-icon {
   font-weight: 500;
   color: var(--white);
@@ -211,6 +214,49 @@ textarea {
   background-color: var(--green);
   transition: var(--trst);
   transition-property: background-color;
+}
+
+.footer-subscribe {
+  display: flex;
+  justify-content: space-between;
+  width: 453px;
+  height: 80px;
+  align-items: flex-end;
+}
+.footer-subscribe-text-input {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-subscribe-label {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-subscribe-string {
+}
+.footer-subscribe-btn {
+  display: inline-flex;
+  padding: 8px 24px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  fill: currentColor;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
 }
 
 /* home */
@@ -539,10 +585,17 @@ textarea {
   background-color: var(--iris);
   border: 1px solid var(--iris);
 }
+.modal-review-block {
+  width: 360px;
+}
 .text-review {
-  display: block;
   padding-top: 72px;
   margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
 }
 .reviews-list {
   width: 360px;
@@ -553,6 +606,13 @@ textarea {
   gap: 8px;
   padding: 0 24px;
   margin-bottom: 16px;
+}
+.checkbox-agreement {
+  padding-bottom: 24px;
+}
+.checkbox-agreement-text {
+  display: block;
+  margin-bottom: 24px;
 }
 /* .btn-review {
 } */
