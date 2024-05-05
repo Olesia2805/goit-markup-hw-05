@@ -30,7 +30,6 @@ p {
   font-family: 'Roboto', sans-serif;
   font-family: var(--font-family);
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   background-color: var(--white);
@@ -98,7 +97,6 @@ textarea {
   font-family: var(--second-family);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
@@ -238,7 +236,6 @@ textarea {
   height: 40px;
   padding: 8px 16px;
   font-size: 12px;
-  line-height: 2;
   letter-spacing: 0.04em;
   color: var(--white);
   border-radius: 4px;
@@ -292,19 +289,19 @@ textarea {
 .main-first-title {
   max-width: 496px;
   font-size: 56px;
-  line-height: 1.07;
   text-align: center;
   color: var(--white);
   margin-bottom: 48px;
 }
 .main-button-home {
+  width: 169px;
+  height: 56px;
   display: block;
   margin: 0 auto;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
-  padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
@@ -338,7 +335,6 @@ textarea {
 .main-benefits-point {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   margin-bottom: 8px;
 }
 .main-benefits-text {
@@ -349,7 +345,6 @@ textarea {
 }
 .main-index h2 {
   font-size: 36px;
-  line-height: 1.11;
   text-transform: capitalize;
   text-align: center;
   margin-bottom: 72px;
@@ -385,7 +380,6 @@ textarea {
 .main-team-person {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   margin-bottom: 8px;
 }
 .main-team-text {
@@ -532,7 +526,6 @@ textarea {
 .main-list-pic-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   color: var(--navy-blue);
   margin-bottom: 8px;
 }
@@ -615,7 +608,6 @@ textarea {
 }
 .review-form-label {
   font-size: 12px;
-  line-height: 1.17;
   color: var(--light-slate);
 }
 .review-form-field {
@@ -627,7 +619,6 @@ textarea {
   height: 40px;
   padding: 11px 4px 11px 38px;
   font-size: 12px;
-  line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--slate);
   border-radius: 4px;
@@ -656,7 +647,6 @@ textarea {
   padding: 8px 16px;
   margin-top: 4px;
   font-size: 12px;
-  line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--slate);
   border: 1px solid var(--navy-blue-modal);
@@ -675,7 +665,6 @@ textarea {
 }
 .review-form-agreement-desc {
   font-size: 12px;
-  line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--light-slate);
 }
@@ -710,7 +699,6 @@ input[type='checkbox']:checked
   transform: scale(1);
 }
 .review-form-agreement-link {
-  line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: var(--iris);
